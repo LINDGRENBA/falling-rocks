@@ -4,8 +4,8 @@ import './WorldGrid.css';
 const WorldGrid = () => {
   const [squares, setSquares] = useState([]);
 
-  const elements = [".", ":", "T"];
-  const [rock, stackedRocks, table] = elements;
+  // const elements = [".", ":", "T"];
+  // const [rock, stackedRocks, table] = elements;
 
 
   const handleClick = () => {

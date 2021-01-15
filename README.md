@@ -39,6 +39,8 @@ This project is a technical challenge entitled 'Falling Rocks', created for the 
 
 # Future Updates :
 
+* Render random 2D-World dynamically / programmatically 
+
 
 # Testing Steps / QA Criteria :
 
