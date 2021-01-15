@@ -1,13 +1,13 @@
 import React from 'react';
-import Rocks from './Rocks';
 
-const App = () => {
-  
+const Rocks = () => {
   return (
     <React.Fragment>
-      <Rocks />
+      <div>
+        <p>Rocks</p>
+      </div>
     </React.Fragment>
   )
 }
 
-export default App;
+export default Rocks;

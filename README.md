@@ -12,7 +12,7 @@ This project is a technical challenge entitled 'Falling Rocks', created for the 
 
 # Process :
 
-1. Create an initial React app - [ ]
+1. Create an initial React app - [X]
 2. Add a react hook to hold state - [ ]
 3. Create a 2x2 grid - [ ]
 4. Add an array to store the possible elements (destructure array?) or variables to store the elements - [ ]
