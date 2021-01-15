@@ -9,7 +9,10 @@ const WorldGrid = () => {
 
 
   const handleClick = () => {
-    setSquares([":", ".", "T", ":"]);
+    setSquares([".", ".", "T", "."]);
+    const index = squares.length - 1;
+    console.log(squares[index]); // gives the 3rd index (last item)
+    console.log(squares[squares.length / 2]); // gives the 2nd index (3rd item)
   }
 
   return (
