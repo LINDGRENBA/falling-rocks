@@ -16,12 +16,15 @@ This project is a technical challenge entitled 'Falling Rocks', created for the 
 - [X] Add a react hook to hold state 
 - [X] Create a 2x2 grid 
 - [X] Add an array to store the possible elements (destructure array?) or variables to store the elements 
-- [ ] add a button - on the button click, render a single element inside of the grid 
+- [X] Add a button 
+- [ ] On the button click, render a hard coded `world` with elements into the grid
 - [ ] Hard code a 2D table 
 - [ ] Write an algorithm to check the elements inside of the 2D world and update appropriately (add a UI component to begin updates such as a button?) 
 
 
 # Bugs / Issues :
+| Issue & Message | Resolved? | Solution |
+| ----- | ----- | ----- | 
 
 
 # Future Updates :
