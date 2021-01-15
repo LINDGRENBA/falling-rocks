@@ -1,13 +1,15 @@
 import React from 'react';
 
-const Rocks = () => {
+const WorldGrid = () => {
+
+
   return (
     <React.Fragment>
       <div>
-        <p>Rocks</p>
+        <p>WorldGrid</p>
       </div>
     </React.Fragment>
   )
 }
 
-export default Rocks;
+export default WorldGrid;

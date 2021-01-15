@@ -1,11 +1,11 @@
 import React from 'react';
-import Rocks from './Rocks';
+import WorldGrid from './WorldGrid';
 
 const App = () => {
   
   return (
     <React.Fragment>
-      <Rocks />
+      <WorldGrid />
     </React.Fragment>
   )
 }
