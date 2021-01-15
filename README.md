@@ -34,6 +34,7 @@ This project is a technical challenge entitled 'Falling Rocks', created for the 
 # Bugs / Issues :
 | Issue & Message | Resolved? | Solution |
 | ----- | ----- | ----- | 
+| `Each child in a list should have a unique "key" prop.` | In Progress | Need to add unique key to each div rendered by map() |
 
 
 # Future Updates :
