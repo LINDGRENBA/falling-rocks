@@ -3,7 +3,11 @@ import './WorldGrid.css';
 
 const WorldGrid = () => {
   const elements = [".", ":", "T"];
-  const [period, colon, table] = elements;
+  const [rock, stackedRocks, table] = elements;
+
+  const handleClick = () => {
+    console.log(rock, stackedRocks, table);
+  }
 
   return (
     <React.Fragment>
@@ -15,6 +19,7 @@ const WorldGrid = () => {
           <div></div>
         </div>
       </div>
+      <button onClick={handleClick}>Start!</button>
     </React.Fragment>
   )
 }
