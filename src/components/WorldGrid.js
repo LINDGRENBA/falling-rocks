@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './WorldGrid.css';
+import uuid from 'react-uuid';
 
 const WorldGrid = () => {
   const [squares, setSquares] = useState([]);
@@ -42,7 +43,7 @@ const WorldGrid = () => {
       <div>
         <div className="grid">
           {squares && squares.map(square => {
-            return <div>{square}</div>
+            return <div key={uuid()}>{square}</div>
           })}
         </div>
       </div>
