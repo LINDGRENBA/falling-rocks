@@ -1,7 +1,7 @@
 # Description :
 This project is a technical challenge entitled 'Falling Rocks', created for the Phylos interview process.
 
-# Process / Approach :
+# Development Process / Approach :
 
 ### Initial Setup
 - [X] Create an initial React app 
@@ -11,26 +11,31 @@ This project is a technical challenge entitled 'Falling Rocks', created for the 
 - [X] Add a button 
 - [X] On the button click, render a hard coded `world` with elements into the grid
 
-### Taking Note of Elements
-- Write an algorithm to check the elements inside of the 2D world and update appropriately
+### Taking Note of Initial Elements
+Write an algorithm to check the elements inside of the 2D world and update appropriately
 - [X] Write a function to checks which elements exists in the squares at the bottom of the grid
 - [X] Update the function to also check which element exists in the squares "above" the bottom squares of the grid
 
 ### Updating the 2D-World / Grid
-- Begin to update each square of the grid based on which element currently exists within each square and the square above it
+Begin to update each square of the grid based on which element currently exists within each square and the square above it
 - [ ] Expand the function so that it checks not only the second row up from the bottom, but every row from the bottom up (look for pre-existing algorithms to dynamically update a grid)
 
-```
 #### Notes for Updating :
 Consider using nested arrays to represent the 2D-World (see item #3 in Resources / Research section below)
 ```
+example :
+const worldArray = {  {"", ".", ""},
+                      {".", "", "T"}
+                      {".", "", "."} }
+```
+
 
 
 # Bugs / Issues :
 
 | Issue & Message | Resolved? | Solution |
 | --------- | ---------- | ---------- | 
-| `Each child in a list should have a unique "key" prop.` | In Progress | Used the (uuid)[https://www.npmjs.com/package/react-uuid] to generate unique identifiers  |
+| `Each child in a list should have a unique "key" prop.` | Resolved | Used the (uuid)[https://www.npmjs.com/package/react-uuid] to generate unique identifiers  |
 
 
 # Future Updates :
@@ -42,7 +47,7 @@ Consider using nested arrays to represent the 2D-World (see item #3 in Resources
 # Testing Steps / QA Criteria :
 
 ### Requirements :
- To run this application, you will need `npm` installed on your computer. To check if you have Node.js and npm installed, you can enter `node -v` and `npm -v` in your terminal. If they are installed, you should see the software versioning number printed to your terminal. 
+ To run this application, you will need `Node.js` and `npm` installed on your computer. To check if you have Node.js and npm installed, you can enter `node -v` and `npm -v` in your terminal. If they are installed, you should see the software versioning number printed to your terminal. 
 ```
  Example:
   v10.15.1
@@ -59,7 +64,7 @@ Consider using nested arrays to represent the 2D-World (see item #3 in Resources
 
 If the project does not open in your browser, try opening a new browser tab and navigating to `localhost:3000` (note: the number after `localhost:` may be different if you have other projects running at the same time - you can check the number in your terminal).
 ![project in the browser](./public/images/browser-ui.PNG) 
-If the project does not appear in the browser, reviewthe previous steps and confirm that you have Node.jsand npm installed on your device.     
+If the project does not appear in the browser, review the previous steps and confirm that you have Node.js and npm installed on your device.     
 
 
 # Resources / Research :
