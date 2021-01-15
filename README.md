@@ -12,14 +12,23 @@ This project is a technical challenge entitled 'Falling Rocks', created for the 
 
 # Process / Approach :
 
+### Initial Setup
 - [X] Create an initial React app 
 - [X] Add a react hook to hold state 
 - [X] Create a 2x2 grid 
 - [X] Add an array to store the possible elements (destructure array?) or variables to store the elements 
 - [X] Add a button 
-- [ ] On the button click, render a hard coded `world` with elements into the grid
-- [ ] Hard code a 2D table 
-- [ ] Write an algorithm to check the elements inside of the 2D world and update appropriately (add a UI component to begin updates such as a button?) 
+- [X] On the button click, render a hard coded `world` with elements into the grid
+
+### Taking Note of Elements
+- Write an algorithm to check the elements inside of the 2D world and update appropriately
+- [ ] Write a function to checks which elements exists in the squares at the bottom of the grid
+- [ ] Update the function to also check which element exists in the squares "above" the bottom squares of the grid
+- [ ] Expand the function so that it checks not only the second row up from the bottom, but every row from the bottom up
+
+### Updating the 2D-World / Grid
+- Begin to update each square of the grid based on which element currently exists within each square and the square above it
+- [ ] Will need to insert empty squares in the top row for each column where an element moves "down the column"
 
 
 # Bugs / Issues :
