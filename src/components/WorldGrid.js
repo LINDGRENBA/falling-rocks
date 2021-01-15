@@ -1,12 +1,17 @@
 import React from 'react';
+import './WorldGrid.css';
 
 const WorldGrid = () => {
-
 
   return (
     <React.Fragment>
       <div>
-        <p>WorldGrid</p>
+        <div className="grid">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </React.Fragment>
   )

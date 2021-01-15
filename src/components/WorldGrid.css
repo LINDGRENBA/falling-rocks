@@ -1,0 +1,13 @@
+.grid {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: plum; */
+}
+
+.grid div {
+  height: 50px;
+  width: 50px;
+  background-color: powderblue;
+}
