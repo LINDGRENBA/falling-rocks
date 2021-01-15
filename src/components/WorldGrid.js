@@ -2,6 +2,8 @@ import React from 'react';
 import './WorldGrid.css';
 
 const WorldGrid = () => {
+  const elements = [".", ":", "T"];
+  const [period, colon, table] = elements;
 
   return (
     <React.Fragment>
