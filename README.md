@@ -1,3 +1,47 @@
+# Description :
+This project is a technical challenge entitled 'Falling Rocks', created for the Phylos interview process.
+
+# Acceptance Criteria :
+
+- [ ] A
+- [ ] B
+- [ ] C
+- [ ] D
+
+<!-- may not want to include as challenge is confidential - ask Patrick and Ryan -->
+
+# Process :
+
+1. Create an initial React app - [ ]
+2. Add a react hook to hold state - [ ]
+3. Create a 2x2 grid - [ ]
+4. Add an array to store the possible elements (destructure array?) or variables to store the elements - [ ]
+5. Hard code a 2D table - [ ]
+6. Write an algorithm to check the elements inside of the 2D world and update appropriately (add a UI component to begin updates such as a button?) - [ ]
+
+
+# Bugs / Issues :
+
+
+# Future Updates :
+
+
+# Testing Steps / QA Criteria :
+
+* To run this application, you will need `npm` installed on your computer.
+
+1. From your terminal, pull down this project using the command `git pull` + repo-link (found by selecting the green dropdown in the upper right corner of the github repo). 
+2. Once you have the project locally, open it inside of a code editor such as `Atom` or `Visual Studio Code`.
+3. To install the necessary dependencies, enter the command `npm install` into your terminal.
+4. Then enter `npm start`
+5. The project should automatically open in your browser. This may take a minute, don't worry! If the project does not open in your browser, check the previous steps to be sure nothing was missed. 
+
+
+# Resources / Research :
+
+1. [Code Tetris: JavaScript Tutorial for Beginners](https://youtu.be/rAUn1Lom6dw)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
