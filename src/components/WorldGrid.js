@@ -1,22 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './WorldGrid.css';
 
 const WorldGrid = () => {
+  const [squares, setSquares] = useState([]);
+
   const elements = [".", ":", "T"];
   const [rock, stackedRocks, table] = elements;
 
+
   const handleClick = () => {
-    console.log(rock, stackedRocks, table);
+    setSquares([":", ".", "T", ":"]);
   }
 
   return (
     <React.Fragment>
       <div>
         <div className="grid">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          {squares && squares.map(square => {
+            return <div>{square}</div>
+          })}
         </div>
       </div>
       <button onClick={handleClick}>Start!</button>
