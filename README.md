@@ -1,15 +1,6 @@
 # Description :
 This project is a technical challenge entitled 'Falling Rocks', created for the Phylos interview process.
 
-# Acceptance Criteria :
-
-- [ ] A
-- [ ] B
-- [ ] C
-- [ ] D
-
-<!-- may not want to include as challenge is confidential - ask Patrick and Ryan -->
-
 # Process / Approach :
 
 ### Initial Setup
@@ -29,33 +20,54 @@ This project is a technical challenge entitled 'Falling Rocks', created for the 
 - Begin to update each square of the grid based on which element currently exists within each square and the square above it
 - [ ] Expand the function so that it checks not only the second row up from the bottom, but every row from the bottom up (look for pre-existing algorithms to dynamically update a grid)
 
+```
+#### Notes for Updating :
+Consider using nested arrays to represent the 2D-World (see item #3 in Resources / Research section below)
+```
+
 
 # Bugs / Issues :
+
 | Issue & Message | Resolved? | Solution |
-| ----- | ----- | ----- | 
-| `Each child in a list should have a unique "key" prop.` | In Progress | Need to add unique key to each div rendered by map() |
+| --------- | ---------- | ---------- | 
+| `Each child in a list should have a unique "key" prop.` | In Progress | Used the (uuid)[https://www.npmjs.com/package/react-uuid] to generate unique identifiers  |
 
 
 # Future Updates :
 
 * Render random 2D-World dynamically / programmatically 
+* Abstract out algorithm to update grid into separate file
 
 
 # Testing Steps / QA Criteria :
 
-* To run this application, you will need `npm` installed on your computer.
+### Requirements :
+ To run this application, you will need `npm` installed on your computer. To check if you have Node.js and npm installed, you can enter `node -v` and `npm -v` in your terminal. If they are installed, you should see the software versioning number printed to your terminal. 
+```
+ Example:
+  v10.15.1
+``` 
+
+ If you do not have Node.js and npm installed, you can follow along with the [Downloading and installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) guide to complete the installation process. Once Node.js and npm are installed, follow the steps below to run the project locally. 
 
 1. From your terminal, pull down this project using the command `git pull` + repo-link (found by selecting the green dropdown in the upper right corner of the github repo). 
+![github code button](./public/images/repo-link-button.PNG)
 2. Once you have the project locally, open it inside of a code editor such as `Atom` or `Visual Studio Code`.
 3. To install the necessary dependencies, enter the command `npm install` into your terminal.
 4. Then enter `npm start`
-5. The project should automatically open in your browser. This may take a minute, don't worry! If the project does not open in your browser, check the previous steps to be sure nothing was missed. 
+5. After entering `npm start`, the project should open in your browser. This may take a a few seconds. 
+
+If the project does not open in your browser, try opening a new browser tab and navigating to `localhost:3000` (note: the number after `localhost:` may be different if you have other projects running at the same time - you can check the number in your terminal).
+![project in the browser](./public/images/browser-ui.PNG) 
+If the project does not appear in the browser, reviewthe previous steps and confirm that you have Node.jsand npm installed on your device.     
 
 
 # Resources / Research :
 
 1. [Code Tetris: JavaScript Tutorial for Beginners](https://youtu.be/rAUn1Lom6dw)
 2. [setTimeout in React Components Using Hooks](https://upmostly.com/tutorials/settimeout-in-react-components-using-hooks)
+3. [2D Arrays in JavaScript](https://youtu.be/OTNpiLUSiB4)    
+<br/>
 
 
 # Getting Started with Create React App
