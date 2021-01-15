@@ -22,13 +22,12 @@ This project is a technical challenge entitled 'Falling Rocks', created for the 
 
 ### Taking Note of Elements
 - Write an algorithm to check the elements inside of the 2D world and update appropriately
-- [ ] Write a function to checks which elements exists in the squares at the bottom of the grid
-- [ ] Update the function to also check which element exists in the squares "above" the bottom squares of the grid
-- [ ] Expand the function so that it checks not only the second row up from the bottom, but every row from the bottom up
+- [X] Write a function to checks which elements exists in the squares at the bottom of the grid
+- [X] Update the function to also check which element exists in the squares "above" the bottom squares of the grid
 
 ### Updating the 2D-World / Grid
 - Begin to update each square of the grid based on which element currently exists within each square and the square above it
-- [ ] Will need to insert empty squares in the top row for each column where an element moves "down the column"
+- [ ] Expand the function so that it checks not only the second row up from the bottom, but every row from the bottom up (look for pre-existing algorithms to dynamically update a grid)
 
 
 # Bugs / Issues :
@@ -56,6 +55,7 @@ This project is a technical challenge entitled 'Falling Rocks', created for the 
 # Resources / Research :
 
 1. [Code Tetris: JavaScript Tutorial for Beginners](https://youtu.be/rAUn1Lom6dw)
+2. [setTimeout in React Components Using Hooks](https://upmostly.com/tutorials/settimeout-in-react-components-using-hooks)
 
 
 # Getting Started with Create React App

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './WorldGrid.css';
 
 const WorldGrid = () => {
@@ -7,12 +7,34 @@ const WorldGrid = () => {
   // const elements = [".", ":", "T"];
   // const [rock, stackedRocks, table] = elements;
 
+  useEffect(() => {
+    setSquares([".", ".", "T", "."]);
+    return () => {
+      
+    }
+  }, [])
 
   const handleClick = () => {
-    setSquares([".", ".", "T", "."]);
-    const index = squares.length - 1;
-    console.log(squares[index]); // gives the 3rd index (last item)
-    console.log(squares[squares.length / 2]); // gives the 2nd index (3rd item)
+    const elements = [".", ":", "T"];
+    const [rock, stackedRocks, table] = elements;
+
+    const newSquares = [...squares];
+    const index = newSquares.length - 1;
+    const prevIndex = index - 1;
+    if(newSquares[index] === rock && newSquares[index - 2] === rock) {
+      newSquares[index] = stackedRocks;
+      newSquares[index - 2] = "";
+      // these values are hard coded, but should be set programmatically
+      // to dynamically update grid, use setTimeout
+    }
+
+    if(newSquares[prevIndex] === rock && newSquares[prevIndex] === rock) {
+      newSquares[prevIndex] = stackedRocks;
+      newSquares[prevIndex - 2] = "";
+    }
+
+
+    setSquares(newSquares);
   }
 
   return (
