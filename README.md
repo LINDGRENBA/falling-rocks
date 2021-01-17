@@ -57,7 +57,7 @@ const worldArray = {  {"", ".", ""},
 
 1. From your terminal, pull down this project using the command `git pull` + repo-link (found by selecting the green dropdown in the upper right corner of the github repo). 
 ![github code button](./public/images/repo-link-button.PNG)
-2. Once you have the project locally, open it inside of a code editor such as `Atom` or `Visual Studio Code`.
+2. Once you have the project locally, navigate into the project directory using `cd falling-rocks` and open it inside of a code editor such as `Atom` or `Visual Studio Code`.
 3. To install the necessary dependencies, enter the command `npm install` into your terminal.
 4. Then enter `npm start`
 5. After entering `npm start`, the project should open in your browser. This may take a a few seconds. 
